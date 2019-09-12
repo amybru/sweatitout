@@ -1,0 +1,463 @@
+/* ----------------------------------------General */
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 400;
+    margin-top: 120px;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+}
+
+.card-button {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Bangers', sans-serif;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    margin-top: 20px;
+    background-color: #054e6f;
+    color: #fbffff;
+}
+
+.card-button:hover {
+    background-color: #ffd900;
+    color: #fbffff;
+}
+
+.reviewb {
+    background-color: #054e6f;
+    color: #fbffff;
+    border-radius: 23px;
+    font-family: 'Bangers', sans-serif;
+}
+
+.reviewb:hover {
+    background-color: #67c60a;
+    color: #fbffff;
+}
+
+.modalbtn {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+    border-radius: 23px;
+    font-family: 'Bangers', sans-serif;
+}
+
+.landingbutton {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+    border-radius: 23px;
+    font-family: 'Bangers', sans-serif;
+}
+
+.free-button {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Bangers', sans-serif;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 300px;
+    margin-top: 40px;
+    background-color: #054e6f;
+    color: #fbffff;
+}
+
+.free-button:hover {
+    background-color: #67c60a;
+    color: #fbffff;
+}
+
+.btn-contact[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #000;
+    background-color: #ffd900;
+    font-family: 'Bangers', sans-serif;
+}
+
+.btn-contact:hover {
+    color: #ffd900;
+    background-color: #000;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ----------------------------------------Navbar*/
+
+header {
+    background-color: #054e6f;
+    color: #fbffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    box-shadow: 0 0 25px 0 #000;
+    z-index: 1;
+}
+
+
+.navbar-brand {
+    width: 70px;
+    height: 70px;
+    transition: transform .2s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.25);
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 23px;
+    text-align: right;
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-nav li a:hover {
+    color: #054e6f;
+    background-color: #fbffff;
+    border-radius: 23px;
+}
+
+.dropdown-menu {
+    background-color: #ffd900;
+    color: #054e6f;
+    position: relative;
+}
+
+.dropdown-item {
+    background-color: #ffd900;
+    color: #054e6f;
+    border-radius: 23px;
+}
+
+.dropdown-item:hover {
+     color: #054e6f;
+    background-color: #fbffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* ---------------------------------------Jumbotrons */
+
+.jumbotron {
+    height: 22em;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#landing-view {
+    background-image: url("");
+    background: no-repeat bottom right fixed;
+}
+
+#about-view #classes-view #contact-view
+/* ----------------------------------------Footer */
+
+.footer {
+    min-height: 130px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    background-color: #054e6f;
+    color: #fbffff;
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fbffff;
+    background: #000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ffd900;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/* ----------------------------------------Home page styles */
+
+.bg-color-about-landing {
+    background-color: #fbffff;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.bg-color-services-landing {
+    background-color: #7bd7c2;
+    padding: 40px;
+}
+
+.bg-color-review-landing {
+    background-color: #ffd900;
+}
+
+.about-landing-page h3 {
+    font-size: 60px;
+    font-family: 'Bangers', sans-serif;
+}
+
+.about-landing-page p {
+    font-size: 30px;
+}
+
+.gym-name {
+    font-size: 7em;
+}
+
+.card {
+    margin: 20px 10px;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.25);
+}
+
+.card-title {
+    font-family: 'Bangers', sans-serif;
+}
+
+.review {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin: 0;
+}
+
+#reviews {
+    font-family: 'Bangers', sans-serif;
+    font-size: 40px;
+}
+
+/* ----------------------------------------About Page styles */
+
+.about-about {
+    background-color: #fbffff;
+    margin: 0;
+}
+
+.about-about p {
+    font-size: 35px;
+}
+
+.about-gallery {
+    background-color: #7bd6c2;
+    padding: 20px;
+    margin: 0;
+}
+
+.about-gallery .flex {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    align-items: center;
+    padding: 40px;
+}
+
+.about-gallery h2 {
+    margin-bottom: 40px;
+    font-family: 'Bangers', sans-serif;
+    font-size: 55px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.about-gallery h3 {
+    font-weight: 400;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Bangers', sans-serif;
+    line-height: 1;
+}
+
+.about-gallery p {
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 18px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.about-gallery .photo {
+    width: 208px;
+    height: 211px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about-gallery .border {
+    border: 5px solid #fbffff;
+}
+
+.instructor-details {
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+
+.about-skills {
+    background-color: #054e6f;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.about-skills h3 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-skills h4 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 30px;
+    color: #ffd900;
+}
+
+.about-skills p {
+    margin-bottom: 0;
+    padding: 0;
+    text-align: right;
+    color: #fbffff;
+}
+
+.about-signup {
+    background-color: #ffd900;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.about-signup h3 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 55px;
+}
+
+.about-signup p {
+    font-size: 30px;
+}
+
+/* ----------------------------------------Classes page styles*/
+
+/* ----------------------------------------Contact page styles*/
+
+.column {
+    float: left;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.left {
+    width: 40%;
+    background-color: #67c60a;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.right {
+    width: 60%;
+    background-color: #fbffff;
+    padding: 10px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.contact-gym-name {
+    font-family: 'Bangers', sans-serif;
+    font-size: 50px;
+}
+
+.contact-info-item .key {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-info-item .value {
+    font-size: 25px;
+}
+
+
+.contact-gym-hours {
+    font-family: 'Bangers', sans-serif;
+    font-size: 40px;
+}
+
+.buisness-info-item {
+    background-color: white;
+}
+
+.buisness-info-item .key {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.buisness-info-item .value {
+    font-size: 25px
+}
+
+.contact-form{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+form {
+    padding-top: 15px;
+}
+.contact-form h3 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 50px;
+}
+
+.contact-form h5 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 30px;
+}
+
+.contact-heading {
+    font-family: 'Bangers', sans-serif;
+    font-size: 50px;
+}
+
