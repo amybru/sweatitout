@@ -13,29 +13,35 @@
 
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top">
-        <a href="index.html" class="navbar-brand"><img src="./img/logo.png" width="70" height="70" class="d-inline-block align-top logo-img" alt=""></a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+             <a class="navbar-brand" href="index.html">
+    <img src="./img/logo.png" width="70" height="70" alt="logo">
+  </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-        <div class="collapse navbar-collapse navbar-content" id="navbarNavDropdown">
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item ml-auto list-inline-item menuitem uppercase"><a class="nav-link" href="about.html">Who We Are</a></li>
-                <li class="nav-item ml-auto list-inline-item menuitem uppercase"><a class="nav-link" href="classes.html">Classes</a></li>
-                <li class="nav-item dropdown d-none d-lg-block list-inline-item menuitem uppercase">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedules</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarNav DropdownMenuLink">
-                        <a class="dropdown-item uppercase" href="./img/2018schedule.pdf" target="_blank">2018 Schedule</a>
-                        <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2019 Schedule</a>
-                        <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2020 Schedule</a>
-                    </div>
-                </li>
-                <li class="active nav-item ml-auto list-inline-item menuitem uppercase"><a class="nav-link" href="contact.html">Contact Us</a></li>
-        </div>
-
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link uppercase" href="about.html">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link uppercase" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item dropdown d-none d-lg-block">
+                        <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedules</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item uppercase" href="./img/2018schedule.pdf" target="_blank">2018 Schedule</a>
+                            <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2019 Schedule</a>
+                            <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2020 Schedule</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link uppercase" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section class="jumbotron" id="landing-view">
@@ -69,7 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card card-main">
                         <img src="img/gymthree.jpg" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Small Group Training</h5>
@@ -79,7 +85,7 @@
 
 
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card card-main">
                         <img src="img/gymtwo.jpg" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">One-on-One Training</h5>
@@ -89,7 +95,7 @@
 
 
                 <div class="col-12 col-lg-4">
-                    <div class="card">
+                    <div class="card card-main">
                         <img src="img/gymone.jpeg" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Total-Body-Strength</h5>

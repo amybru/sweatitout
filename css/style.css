@@ -3,7 +3,7 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 400;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 h1 {
@@ -100,7 +100,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 120px;
     display: flex;
     box-shadow: 0 0 25px 0 #000;
     z-index: 1;
@@ -108,8 +107,8 @@ header {
 
 
 .navbar-brand {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     transition: transform .2s;
 }
 
@@ -147,7 +146,7 @@ header {
 }
 
 .dropdown-item:hover {
-     color: #054e6f;
+    color: #054e6f;
     background-color: #fbffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -158,21 +157,48 @@ header {
 
 .jumbotron {
     height: 22em;
-    background-size: cover;
-
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
 }
 
 #landing-view {
-    background-image: url("");
-    background: no-repeat bottom right fixed;
+    background-image: url("../img/gymfive.jpeg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
-#about-view #classes-view #contact-view
+#about-view {
+    background-image: url("../img/gymfive.jpeg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#classes-view {
+    background-image: url("../img/gymfour.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#contact-view {
+    background-image: url("../img/gymone.jpeg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
 /* ----------------------------------------Footer */
 
 .footer {
@@ -208,7 +234,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #ffd900;
+    background-color: #ffd900;
 }
 
 #footer-details {
@@ -246,12 +272,12 @@ footer {
     font-size: 7em;
 }
 
-.card {
+.card-main {
     margin: 20px 10px;
     transition: transform .2s;
 }
 
-.card:hover {
+.card-main:hover {
     transform: scale(1.25);
 }
 
@@ -381,27 +407,153 @@ footer {
 
 /* ----------------------------------------Classes page styles*/
 
+.classesavailable {
+    background-color: #7bd7c2;
+    width: 100%;
+}
+
+.options {
+    margin: 10px 20px;
+}
+
+#optionone {
+    height: 400px;
+    width: 530px;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#optiontwo {
+    height: 400px;
+    width: 530px;
+    margin-right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#optionthree {
+    height: 400px;
+    width: 530px;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#optionfour {
+    height: 400px;
+    width: 530px;
+    margin-right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.weekday {
+    font-family: 'Bangers', sans-serif;
+    font-size: 20px;
+
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1026px) { 
+  .scheduling  { 
+    display: none; 
+  } 
+}
+
+.schedule-pdf i {
+    font-size: 25px;
+    color: #ffd900;
+    background-color: #054e6f;
+    width: 45px;
+    height: 45px;
+    padding: 20px 0px;
+    border-radius: 50%;
+    line-height: 6px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.schedule-pdf i:hover {
+    color: #054e6f;
+    background-color: #ffd900;
+}
+
+.classesbtn {
+    background-color: #054e6f;
+    color: #ffd900;
+    border-radius: 23px;
+    font-family: 'Bangers', sans-serif;
+}
+
+.classesbtn:hover {
+    background-color: #ffd900;
+    color: #054e6f;
+}
+
+#schedule {
+    padding: 15px;
+}
+
+#schedule h5 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 2.5em;
+}
+
+
 /* ----------------------------------------Contact page styles*/
 
 .column {
     float: left;
     margin-top: 0px;
     padding-top: 10px;
+    margin-bottom: 30px;
 }
 
 .left {
     width: 40%;
     background-color: #67c60a;
-    padding: 10px;
-    margin-top: 0;
     text-align: center;
 }
 
 .right {
     width: 60%;
     background-color: #fbffff;
-    padding: 10px;
-    margin-top: 0;
     justify-content: center;
 }
 
@@ -438,7 +590,7 @@ footer {
     font-size: 25px
 }
 
-.contact-form{
+.contact-form {
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -446,6 +598,7 @@ footer {
 form {
     padding-top: 15px;
 }
+
 .contact-form h3 {
     font-family: 'Bangers', sans-serif;
     font-size: 50px;
@@ -460,4 +613,3 @@ form {
     font-family: 'Bangers', sans-serif;
     font-size: 50px;
 }
-
