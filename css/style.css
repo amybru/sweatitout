@@ -4,6 +4,7 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 400;
     margin-top: 80px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -41,19 +42,24 @@ h1 {
 }
 
 .modalbtn {
-    color: white;
-    background-color: #f05f40;
+    color: #054e6f;
+    background-color: #ffd900;
     border-color: #f05f40;
     border-radius: 23px;
     font-family: 'Bangers', sans-serif;
 }
 
 .landingbutton {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    color: #054e6f;
+    background-color: #ffd900;
     border-radius: 23px;
+    border-color: #054e6f;
     font-family: 'Bangers', sans-serif;
+}
+
+.landingbutton:hover {
+    color: #ffd900;
+    background-color: #054e6f;
 }
 
 .free-button {
@@ -93,9 +99,8 @@ h1 {
 
 /* ----------------------------------------Navbar*/
 
-header {
+nav {
     background-color: #054e6f;
-    color: #fbffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -118,7 +123,7 @@ header {
 
 .navbar-nav li a {
     text-decoration: none;
-    color: white;
+    color: #fbffff;
     font-size: 25px;
     border-radius: 23px;
     text-align: right;
@@ -161,56 +166,65 @@ header {
     justify-content: center;
     text-align: center;
     position: relative;
+    margin-bottom: 0;
 }
 
 #landing-view {
-    background-image: url("../img/gymfive.jpeg");
-    height: 400px;
+    background-image: url("../img/fit.jpg");
+    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-size: 2vw;
+    color: #fbffff;
 }
 
 #about-view {
-    background-image: url("../img/gymfive.jpeg");
-    height: 400px;
+    background-image: url("../img/sweatitoutgym.jpg");
+    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    
+    font-size: 2.5vw;
+    color: #fbffff;
 }
 
 #classes-view {
-    background-image: url("../img/gymfour.jpg");
-    height: 400px;
+    background-image: url("../img/workout.jpg");
+    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    
+    font-size: 2.5vw;
+    color: #fbffff;
 }
 
 #contact-view {
-    background-image: url("../img/gymone.jpeg");
-    height: 400px;
+    background-image: url("../img/gymfour.jpg");
+    max-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    
+    font-size: 2.5vw;
+    color: #fbffff;
 }
 
 /* ----------------------------------------Footer */
 
-.footer {
-    min-height: 130px;
-    margin: 0;
-    padding-bottom: 0;
-}
 
 footer {
     background-color: #054e6f;
     color: #fbffff;
     text-align: center;
+     min-height: 130px;
+     margin-bottom: 0;
 }
 
 .social-links {
@@ -239,6 +253,10 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.navbar-toggler {
+    color: #fbffff;
 }
 
 /* ----------------------------------------Home page styles */
@@ -315,10 +333,7 @@ footer {
 
 .about-gallery .flex {
     display: flex;
-    margin-bottom: 25px;
-    margin-top: 45px;
-    align-items: center;
-    padding: 40px;
+    padding: 30px;
 }
 
 .about-gallery h2 {
@@ -350,6 +365,7 @@ footer {
     height: 211px;
     border-radius: 50%;
     position: relative;
+    margin-right: 5px;
 }
 
 .about-gallery .border {
@@ -365,7 +381,7 @@ footer {
 .about-skills {
     background-color: #054e6f;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin: 0;
 }
 
@@ -409,17 +425,24 @@ footer {
 
 .classesavailable {
     background-color: #7bd7c2;
-    width: 100%;
+    padding: 0;
+    align-items: center;
 }
 
-.options {
-    margin: 10px 20px;
+.blurb {
+    padding: 20px;
+}
+
+.content {
+    align-items: center;
+}
+
+.blurb h4 {
+    font-size: 2rem;
 }
 
 #optionone {
-    height: 400px;
-    width: 530px;
-    margin-left: 0;
+    padding-left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -427,9 +450,7 @@ footer {
 }
 
 #optiontwo {
-    height: 400px;
-    width: 530px;
-    margin-right: 0;
+    padding-right: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,9 +458,7 @@ footer {
 }
 
 #optionthree {
-    height: 400px;
-    width: 530px;
-    margin-left: 0;
+    padding-left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -447,14 +466,13 @@ footer {
 }
 
 #optionfour {
-    height: 400px;
-    width: 530px;
-    margin-right: 0;
+    padding-right: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
+
 
 
 
@@ -547,7 +565,7 @@ td {
 
 .left {
     width: 40%;
-    background-color: #67c60a;
+    background-color: #7bd7c2;;
     text-align: center;
 }
 
