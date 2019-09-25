@@ -1,248 +1,243 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed:200,300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Gym</title>
-</head>
-
-<body>
-
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Bangers|Barlow+Condensed:200,300,400,500,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Gym</title>
+   </head>
+   <body>
+      <!--Navbar -->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
             <a class="navbar-brand" href="index.html">
-    <img src="./img/logo.png" width="70" height="70" alt="logo">
-  </a>
+            <img src="./img/logo.png" width="70" height="70" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link uppercase" href="about.html">Who We Are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link uppercase" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedules</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item uppercase" href="./img/2018schedule.pdf" target="_blank">2018 Schedule</a>
-                            <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2019 Schedule</a>
-                            <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2020 Schedule</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link uppercase" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link uppercase" href="about.html">Who We Are</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link uppercase" href="classes.html">Classes</a>
+                  </li>
+                  <li class="nav-item dropdown d-none d-lg-block">
+                     <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedules</a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item uppercase" href="./img/2018schedule.pdf" target="_blank">2018 Schedule</a>
+                        <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2019 Schedule</a>
+                        <a class="dropdown-item uppercase" href="./img/2019schedule.pdf" target="_blank">2020 Schedule</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link uppercase" href="contact.html">Contact Us</a>
+                  </li>
+               </ul>
             </div>
-        </nav>
-    </header>
-
-    <section class="jumbotron" id="classes-view">
-        <div class="row">
+         </nav>
+      </header>
+      <!--Jumbotron Classes View-->
+      <section class="jumbotron" id="classes-view">
+         <div class="row">
             <div class="col-12">
-                <section class="callout">
-                    <h1 class="gym-name">Classes</h1>
-                </section>
+               <section class="callout">
+                  <h2 class="gym-name">Classes</h2>
+               </section>
             </div>
-        </div>
-    </section>
-
-    <section class="container-fluid classesavailable">
-        <div class="row content">
+         </div>
+      </section>
+      <!--Classes currently Available -->
+      <section class="container-fluid classesavailable">
+         <div class="row content">
             <div class="col-md-6 order-2 order-md-1">
-                <img class="img-fluid" src="./img/gymthree.jpg" alt="Small Group" id="optionone">
+               <img class="img-fluid" src="./img/gymthree.jpg" alt="Small Group" id="optionone">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb">
-                        <h4 class="card-title">Small Group Training</h4>
-                        <p class="card-text">Starting on your path to a healthy lifestyle can be daunting. Those enrolled in Sweat It Out's group training program benefit from group motivation and effective exercises that will bring real results. One training class consists of groups of 4-10 people. Although the members train together, the program is designed to keep each person's physical abilities and goals in mind. </p>
-                    </div>
-                </div>
+               <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                     <h3 class="card-title">Small Group Training</h3>
+                     <h5 class="card-text">Starting on your path to a healthy lifestyle can be daunting. Those enrolled in Sweat It Out's group training program benefit from group motivation and effective exercises that will bring real results. One training class consists
+                        of groups of 4-10 people. Although the members train together, the program is designed to keep each person's physical abilities and goals in mind. 
+                     </h5>
+                  </div>
+               </div>
             </div>
-        </div>
-
-        <div class="row content">
+         </div>
+         <div class="row content">
             <div class="col-md-6 text-center order-2 order-md-1">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb">
-                        <h4 class="card-title">Total-Body Strength</h4>
-                        <p class="card-text">
-                            Strength training is a critical part of any exercise program. Our instructors use dumbells, resistance bands, kettlebells, olympic lifts, prowlers, core training, and more for the most sucessful taining experience. Classes which focus on upper body and lower body are also available. 
-                        </p>
-                    </div>
-                </div>
+               <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                     <h3 class="card-title">Total-Body Strength</h3>
+                     <h5 class="card-text">
+                        Strength training is a critical part of any exercise program. Our instructors use dumbells, resistance bands, kettlebells, olympic lifts, prowlers, core training, and more for the most sucessful taining experience. Classes which focus on upper body and
+                        lower body are also available.
+                     </h5>
+                  </div>
+               </div>
             </div>
             <div class="col-md-6 order-2 order-md-1">
-                <img class="img-fluid" src="./img/gymone.jpeg" alt="Total Body Strength" id="optiontwo">
+               <img class="img-fluid" src="./img/gymone.jpeg" alt="Total Body Strength" id="optiontwo">
             </div>
-        </div>
-
-
-        <div class="row content">
+         </div>
+         <div class="row content">
             <div class="col-md-6 order-2 order-md-1">
-                <img class="img-fluid" src="./img/classesone.jpg" alt="Spinroom" id="optionthree">
+               <img class="img-fluid" src="./img/classesone.jpg" alt="Spinroom" id="optionthree">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb">
-                        <h4 class="card-title">Spin Room</h4>
-                        <p class="card-text">Our experience has allowed us to create a unique program that is both effective and enjoyable. Our dedicated spin room is equipped with high quality bikes, which are available for individual use when classes are not in session.</p>
-                    </div>
-                </div>
+               <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                     <h3 class="card-title">Spin Room</h3>
+                     <h5 class="card-text">Our experience has allowed us to create a unique program that is both effective and enjoyable. Our dedicated spin room is equipped with high quality bikes, which are available for individual use when classes are not in session.</h5>
+                  </div>
+               </div>
             </div>
-        </div>
-
-        <div class="row content">
+         </div>
+         <div class="row content">
             <div class="col-md-6 text-center order-2 order-md-1">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb">
-                        <h4 class="card-title">One-On-One Training</h4>
-                        <p class="card-text">There isn't just one workout plan that works for everyone. One-on-one training is a personalized training oportunity. Your trainer will work with you to help you set and reach your goals. Reward yourself with improved health, mood, confidence, energy and longevity.</p>
-                    </div>
-                </div>
+               <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb">
+                     <h3 class="card-title">One-On-One Training</h3>
+                     <h5 class="card-text">There isn't just one workout plan that works for everyone. One-on-one training is a personalized training oportunity. Your trainer will work with you to help you set and reach your goals. Reward yourself with improved health, mood,
+                        confidence, energy and longevity.
+                     </h5>
+                  </div>
+               </div>
             </div>
             <div class="col-md-6 order-2 order-md-1">
-                <img class="img-fluid" src="./img/gymtwo.jpg" alt="One-On-One" id="optionfour">
+               <img class="img-fluid" src="./img/gymtwo.jpg" alt="One-On-One" id="optionfour">
             </div>
-        </div>
-
-    </section>
-
-
-
-    <section class="scheduling ">
-        <table>
-            <tr>
-                <td class="weekday">Sunday</td>
-                <td class="weekday">Monday</td>
-                <td class="weekday">Tuesday</td>
-                <td class="weekday">Wednesday</td>
-                <td class="weekday">Thursday</td>
-                <td class="weekday">Friday</td>
-                <td class="weekday">Saturday</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>5:30am Lower-Body Burn</td>
-                <td></td>
-                <td>6:00am Upper-Body burn</td>
-                <td>5:30am Lower-Body Burn</td>
-                <td>6:00am Upper-Body Burn</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>7:00am Total Body Strength</td>
-                <td></td>
-                <td>7:00am Total Body Strength</td>
-                <td></td>
-                <td>7:00am Total Body Strength</td>
-                <td></td>
-                <td>7:00am Total Body Strength</td>
-            </tr>
-            <tr>
-                <td>9:00am Spin Room</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>9:00am Spin Room</td>
-                <td>9:00am Spin Room</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>5:30pm Upper-Body Burn</td>
-                <td>6:30pm Lower-Body Burn</td>
-                <td>5:30pm Upper-Body Burn</td>
-                <td>4:30pm Lower-Body Burn</td>
-            </tr>
-            <tr>
-                <td>7:00pm Total Body Strength</td>
-                <td>6:30pm Lower-Body Burn</td>
-                <td>7:00pm Total Body Strength</td>
-                <td></td>
-                <td>7:00pm Total Body Strength</td>
-                <td></td>
-                <td>7:00pm Spin Room</td>
-            </tr>
-        </table>
-    </section>
-
-    <div class="row" id="schedule">
-        <div class="col-sm-6">
-            <h5 class="uppercase general-sub">Download the most up to date schedule</h5>
-            <a href="./img/2019schedule.pdf" target="_blank" class="schedule-pdf" target="_blank">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                    <span class="sr-only">Download link</span>
-                </a>
-        </div>
-
-        <div class="col-sm-6">
-            <h5 class="uppercase general-sub">Questions? Interested in signing up for a class?</h5>
-            <a href="contact.html" class="btn btn-lg classesbtn uppercase">Sign up today!</a>
-        </div>
-    </div>
-
-
-    <footer class="footer container-fluid" id="footer">
-        <div>
+         </div>
+      </section>
+      <!--Schedule -->
+      <section class="scheduling">
+         <div class="container-fluid">
+            <table>
+               <tr>
+                  <td class="weekday">Sunday</td>
+                  <td class="weekday">Monday</td>
+                  <td class="weekday">Tuesday</td>
+                  <td class="weekday">Wednesday</td>
+                  <td class="weekday">Thursday</td>
+                  <td class="weekday">Friday</td>
+                  <td class="weekday">Saturday</td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>5:30am Lower-Body Burn</td>
+                  <td></td>
+                  <td>6:00am Upper-Body burn</td>
+                  <td>5:30am Lower-Body Burn</td>
+                  <td>6:00am Upper-Body Burn</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>7:00am Total Body Strength</td>
+                  <td></td>
+                  <td>7:00am Total Body Strength</td>
+                  <td></td>
+                  <td>7:00am Total Body Strength</td>
+                  <td></td>
+                  <td>7:00am Total Body Strength</td>
+               </tr>
+               <tr>
+                  <td>9:00am Spin Room</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>9:00am Spin Room</td>
+                  <td>9:00am Spin Room</td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>5:30pm Upper-Body Burn</td>
+                  <td>6:30pm Lower-Body Burn</td>
+                  <td>5:30pm Upper-Body Burn</td>
+                  <td>4:30pm Lower-Body Burn</td>
+               </tr>
+               <tr>
+                  <td>7:00pm Total Body Strength</td>
+                  <td>6:30pm Lower-Body Burn</td>
+                  <td>7:00pm Total Body Strength</td>
+                  <td></td>
+                  <td>7:00pm Total Body Strength</td>
+                  <td></td>
+                  <td>7:00pm Spin Room</td>
+               </tr>
+            </table>
+         </div>
+      </section>
+      <!--Download Schedule -->
+      <section class="downloadschedule">
+         <div class="container-fluid">
+            <div class="row" id="schedule">
+               <div class="col-sm-6">
+                  <h4 class="uppercase general-sub">Download the most up to date schedule</h4>
+                  <a href="./img/2019schedule.pdf" target="_blank" class="schedule-pdf">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                  <span class="sr-only">Download link</span>
+                  </a>
+               </div>
+               <div class="col-sm-6">
+                  <h4 class="uppercase general-sub">Questions? Interested in signing up for a class?</h4>
+                  <a href="contact.html" class="btn btn-lg classesbtn uppercase">Sign up today!</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Footer-->
+      <footer class="footer container-fluid" id="footer">
+         <div>
             <div id="footer-details">
-                <h5 class="footer-name uppercase">SWEAT IT OUT</h5>
-                <p class="block">123 1st Street<br> (555) 222-2323</p>
+               <h4 class="footer-name uppercase">SWEAT IT OUT</h4>
+               <h5 class="block">123 1st Street<br> (555) 222-2323</h5>
             </div>
-
             <div class="footer-social">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only"Facebook></span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.yelp.com/">
-                            <i class="fa fa-yelp" aria-hidden="true"></i>
-                            <span class="sr-only"Yelp></span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.google.com/">
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                            <span class="sr-only"Google+></span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only"Instagram></span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/?lang=en">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only"Twitter></span>
-                        </a>
-                    </li>
-                </ul>
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.facebook.com/">
+                     <i class="fa fa-facebook" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.yelp.com/">
+                     <i class="fa fa-yelp" aria-hidden="true"></i>
+                     <span class="sr-only">Yelp</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.google.com/">
+                     <i class="fa fa-google-plus" aria-hidden="true"></i>
+                     <span class="sr-only">Google+</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.instagram.com/">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://twitter.com/?lang=en">
+                     <i class="fa fa-twitter" aria-hidden="true"></i>
+                     <span class="sr-only">Twitter</span>
+                     </a>
+                  </li>
+               </ul>
             </div>
-        </div>
-
-    </footer>
-
-</body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+         </div>
+      </footer>
+   </body>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

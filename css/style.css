@@ -2,9 +2,7 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 400;
     margin-top: 80px;
-    margin-bottom: 0;
 }
 
 h1 {
@@ -121,7 +119,7 @@ nav {
     transform: scale(1.25);
 }
 
-.navbar-nav li a {
+.navbar-nav .nav-link {
     text-decoration: none;
     color: #fbffff;
     font-size: 25px;
@@ -132,9 +130,9 @@ nav {
     transition-timing-function: ease-in-out;
 }
 
-.navbar-nav li a:hover {
-    color: #054e6f;
-    background-color: #fbffff;
+.navbar-nav .nav-link:hover {
+    color: #fbffff;
+    background-color: #7bd7c2;
     border-radius: 23px;
 }
 
@@ -167,6 +165,10 @@ nav {
     text-align: center;
     position: relative;
     margin-bottom: 0;
+}
+
+.jumbotron h2 {
+     font-family: 'Bangers', sans-serif;
 }
 
 #landing-view {
@@ -228,7 +230,7 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .social-links li a i {
@@ -273,10 +275,6 @@ footer {
     padding: 40px;
 }
 
-.bg-color-review-landing {
-    background-color: #ffd900;
-}
-
 .about-landing-page h3 {
     font-size: 60px;
     font-family: 'Bangers', sans-serif;
@@ -304,9 +302,10 @@ footer {
 }
 
 .review {
-    padding-top: 3em;
-    padding-bottom: 2em;
-    margin: 0;
+     background-color: #ffd900;
+     margin: 0;
+     padding-top: 15px;
+     padding-bottom: 20px;
 }
 
 #reviews {
@@ -316,13 +315,9 @@ footer {
 
 /* ----------------------------------------About Page styles */
 
-.about-about {
-    background-color: #fbffff;
-    margin: 0;
-}
 
-.about-about p {
-    font-size: 35px;
+.services-page{
+    justify-content: center;
 }
 
 .about-gallery {
@@ -373,8 +368,9 @@ footer {
 }
 
 .instructor-details {
-    padding-left: 30px;
-    padding-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
 }
 
 
@@ -392,17 +388,20 @@ footer {
     color: #fff;
 }
 
-.about-skills h4 {
+.about-about {
+    padding-bottom: 15px;
+}
+
+.about-about h4 {
+    color: #fbffff;
+     font-size: 35px;
+}
+
+.sweatitskill {
     font-family: 'Bangers', sans-serif;
     font-size: 30px;
     color: #ffd900;
-}
-
-.about-skills p {
-    margin-bottom: 0;
-    padding: 0;
-    text-align: right;
-    color: #fbffff;
+    margin-top: 10px;
 }
 
 .about-signup {
@@ -435,6 +434,8 @@ footer {
 
 .content {
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .blurb h4 {
@@ -442,15 +443,14 @@ footer {
 }
 
 #optionone {
-    padding-left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    padding-top: 15px;
 }
 
 #optiontwo {
-    padding-right: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -458,7 +458,6 @@ footer {
 }
 
 #optionthree {
-    padding-left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,13 +465,18 @@ footer {
 }
 
 #optionfour {
-    padding-right: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    padding-bottom: 15px;
 }
 
+
+.row {
+    margin-right: 0;
+    padding: 0;
+}
 
 
 
@@ -511,6 +515,10 @@ td {
   } 
 }
 
+.scheduling {
+    padding: 20px;
+}
+
 .schedule-pdf i {
     font-size: 25px;
     color: #ffd900;
@@ -544,6 +552,11 @@ td {
     color: #054e6f;
 }
 
+.general-sub {
+    font-family: 'Bangers', sans-serif;
+    font-size: 3em;
+}
+
 #schedule {
     padding: 15px;
 }
@@ -555,17 +568,24 @@ td {
 
 
 /* ----------------------------------------Contact page styles*/
+.container-fluid {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .column {
     float: left;
     margin-top: 0px;
     padding-top: 10px;
-    margin-bottom: 30px;
+    background-color: #67c60a;
 }
 
 .left {
     width: 40%;
-    background-color: #7bd7c2;;
+    background-color: #67c60a;
     text-align: center;
 }
 
@@ -595,8 +615,11 @@ td {
     font-size: 40px;
 }
 
-.buisness-info-item {
+.buisnessinfo {
     background-color: white;
+    padding: 15px 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .buisness-info-item .key {
