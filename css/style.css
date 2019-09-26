@@ -2,11 +2,16 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 h1 {
     font-family: 'Bangers', sans-serif;
+}
+
+ul {
+    margin-top: 0; 
+    margin-bottom: 1rem;
 }
 
 .card-button {
@@ -231,6 +236,7 @@ footer {
 
 .social-links {
     padding-bottom: 10px;
+    margin: 0;
 }
 
 .social-links li a i {
