@@ -21,12 +21,13 @@ As a user of this website, I would be interested in seeing what others have to s
 
 #### Wireframes
 All wireframes were hand drawn based on the desktop site.
-![](/wireframes/indexwireframe.JPG)
-![](/wireframes/aboutwireframe.JPG)
-![](/wireframes/classeswireframe.JPG)
-![](./wireframes/contactwireframe.JPG)
+![](wireframes/indexwireframe.JPG)
+![](wireframes/aboutwireframe.JPG)
+![](wireframes/classeswireframe.JPG)
+![](wireframes/contactwireframe.JPG)
 
-
+These are the colors used throughout the website. The color palate below was found on Pinterest. 
+![](wireframes/colors.JPG)
 
 ## Features
 Clicking the logo on the navigation bar will bring you back to the home page. The logo will also increase in size when you hover over it on laptop and desktop screens.
@@ -41,16 +42,20 @@ Clicking the "Join Today" button on the home page will open a modal with a sign-
 
 Links in the footer will take you to the company's respective social media pages. 
 
-
+#### Features Left to Impliment
+I would like to add a page called "Success stories" that will give new customers a better feel of how they will benefit from joining this gym. This section will feature testimonials given by current customers.
 
 ## Technologies
 #### HTML5:
+HTML5 was used to provide the content of the site.
 https://en.wikipedia.org/wiki/HTML
 
 #### CSS3:
+CSS3 was used to apply styles to the site.
 https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
 #### Bootstrap 4:
+This site uses Bootstrap 4 to add extra features and allow the HTML to be more responsive.
 https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
 
 
