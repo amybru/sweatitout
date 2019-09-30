@@ -5,6 +5,7 @@ body {
     padding-top: 80px;
 }
 
+/* main headers */
 h1 {
     font-family: 'Bangers', sans-serif;
 }
@@ -14,6 +15,7 @@ ul {
     margin-bottom: 1rem;
 }
 
+/* these buttons are located on the home page */
 .card-button {
     display: block;
     max-width: 300px;
@@ -52,6 +54,7 @@ ul {
     font-family: 'Bangers', sans-serif;
 }
 
+
 .landingbutton {
     color: #054e6f;
     background-color: #ffd900;
@@ -65,6 +68,7 @@ ul {
     background-color: #054e6f;
 }
 
+/* this button is located on the about page */
 .free-button {
     display: block;
     max-width: 500px;
@@ -83,6 +87,7 @@ ul {
     color: #fbffff;
 }
 
+/* this button is located at the bottom of the form on the contact page */
 .btn-contact[type="submit"] {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -126,7 +131,6 @@ nav {
 
 .navbar-nav .nav-link {
     text-decoration: none;
-    color: #fbffff;
     font-size: 25px;
     border-radius: 23px;
     text-align: right;
@@ -161,7 +165,7 @@ nav {
     transition-timing-function: ease-in-out;
 }
 
-/* ---------------------------------------Jumbotrons */
+/* ---------------------------------------Jumbotrons, each page starts with a jumbotron */
 
 .jumbotron {
     height: 22em;
@@ -180,7 +184,6 @@ nav {
 /* home page jumbrotron */
 #landing-view {
     background-image: url("../img/fit.jpg");
-    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,7 +195,6 @@ nav {
 /*Who we are page jumbrotron */
 #about-view {
     background-image: url("../img/sweatitoutgym.jpg");
-    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,7 +207,6 @@ nav {
 /* classes page jumbrotron */
 #classes-view {
     background-image: url("../img/workout.jpg");
-    max-height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +219,6 @@ nav {
 /* contact page jumbrotron */
 #contact-view {
     background-image: url("../img/gymfour.jpg");
-    max-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,6 +239,7 @@ footer {
      margin-bottom: 0;
 }
 
+/*there are five social links at the bottom of the footer */
 .social-links {
     padding-bottom: 10px;
     margin: 0;
@@ -346,11 +347,11 @@ footer {
 
 /*  h3s target the names of the trainers */
 .about-gallery h3 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Bangers', sans-serif;
     font-size: 55px;
     padding-top: 20px;
-    padding-left: 30px;
+    justify-content: center;
 }
 
 /* h4s target the titles of the trainers */
@@ -384,8 +385,6 @@ footer {
 }
 
 .instructor-details {
-    padding-left: 20px;
-    padding-right: 20px;
     margin: 0;
 }
 
@@ -437,7 +436,7 @@ footer {
     font-size: 30px;
 }
 
-/* ----------------------------------------Classes page styles*/
+/* ----------------------------------------Classes page styles. There are four available classes. Pictures and text will alternate on the page*/
 
 .classesavailable {
     background-color: #7bd7c2;
@@ -612,6 +611,8 @@ td {
     justify-content: center;
 }
 
+/* On larger sizes, the left side will contain the buisness details. On smaller sizes, it will be first and will take up the entire width.*/
+
 .contact-gym-name {
     font-family: 'Bangers', sans-serif;
     font-size: 50px;
@@ -648,6 +649,7 @@ td {
     font-size: 25px
 }
 
+/* On larger sizes, the right side will contain a sign up form. On smaller sizes, it will be after the buisness details and will take up the entire width.*/
 .contact-form {
     padding-left: 100px;
     padding-right: 100px;
