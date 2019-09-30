@@ -20,9 +20,11 @@ As a user of this website, I would be interested in seeing what others have to s
 
 
 #### Wireframes
-- desktop
-- tablet
-- mobile
+All wireframes were hand drawn based on the desktop site.
+![](/wireframes/indexwireframe.JPG)
+![](/wireframes/aboutwireframe.JPG)
+![](/wireframes/classeswireframe.JPG)
+![](./wireframes/contactwireframe.JPG)
 
 
 
@@ -118,6 +120,7 @@ To accomplish the publishing of the website, the following steps were carried ou
 4) Click it and select "master branch"
 5) Click on the url to visit the published website
 
+![](wireframes/published.png)
 
 ## Acknowledgement
 #### I would like to thank and credit the following sources for their help:
